@@ -1,0 +1,75 @@
+/* Sayfa yapısı için gerekli: */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* İçeriği ekran boyuna göre ayarlayan alan */
+.content-wrapper {
+  min-height: calc(100vh - 150px); /* footer yüksekliği kadar boşluk bırakır */
+  padding: 20px;
+}
+
+/* Footer genel görünüm */
+footer {
+  background-color: #f8f9fa;      /* Açık gri arka plan */
+  border-top: 1px solid #dee2e6;  /* Üstte ayırıcı çizgi */
+  padding: 2rem 1rem;             /* Yukarı-aşağı ve yanlardan boşluk */
+  font-size: 0.95rem;             /* Yazı biraz küçültüldü */
+  color: #343a40;                 /* Koyu yazı rengi */
+}
+
+/* Footer başlıkları */
+footer h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #212529;
+}
+
+/* Footer paragraflar */
+footer p {
+  color: #6c757d;
+  margin-bottom: 0.5rem;
+}
+
+/* Liste ayarları */
+footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+/* Linklerin görünümü */
+footer a {
+  text-decoration: none;
+  color: #343a40;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #007bff; /* Bootstrap mavisi */
+}
+
+/* Küçük telif yazısı */
+footer small {
+  display: block;
+  text-align: center;
+  margin-top: 2rem;
+  color: #6c757d;
+}
+
+/* Responsive ayar: mobilde sütunlar ortalansın */
+@media (max-width: 768px) {
+  footer .col-md-4 {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
+
+
