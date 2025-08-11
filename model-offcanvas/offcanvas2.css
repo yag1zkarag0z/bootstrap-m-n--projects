@@ -1,0 +1,28 @@
+/* Offcanvas arka planı şeffaf ve blur efekti */
+.offcanvas.bg-dark {
+  background-color: rgba(0, 0, 0, 0.6) !important; /* yarı şeffaf siyah */
+  backdrop-filter: blur(10px); /* arka planı bulanıklaştırır */
+}
+
+/* Başlık yazısı biraz öne çıksın */
+.offcanvas-header h3 {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Form input'larını biraz modern yap */
+.offcanvas-body .form-control {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: none;
+  color: #fff;
+}
+
+.offcanvas-body .form-control::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.offcanvas-body .form-control:focus {
+  background-color: rgba(255, 255, 255, 0.15);
+  box-shadow: 0 0 5px rgba(255, 255, 255, 0.3);
+  color: #fff;
+}
