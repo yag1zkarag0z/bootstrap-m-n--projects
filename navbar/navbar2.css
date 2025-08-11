@@ -1,0 +1,34 @@
+.navbar {
+  background-color: #801d1d;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #2c3e50;
+}
+
+.navbar-brand:hover {
+  color: red;
+  transition: color 0.5s ease;
+}
+
+.nav-link {
+  margin-left: 1rem;
+  color: #333;
+  transition: color 0.3s ease;
+}
+
+.nav-link:hover {
+  color: #ff0000;
+}
+
+.nav-link.active {
+  color:#ff0000;
+  font-weight: bold;
+}
+
+.navbar-toggler {
+  border: none;
+}
