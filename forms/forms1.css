@@ -1,0 +1,37 @@
+form {
+  background: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+/* Etiketler */
+form .form-label {
+  font-weight: 500;
+  color: #333;
+}
+
+/* Input ve textarea */
+form .form-control {
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input focus efekti */
+form .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.15rem rgba(0, 123, 255, 0.25);
+}
+
+/* Buton */
+form button {
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+  font-weight: 500;
+}
+
+/* Sayfa arka planı */
+body {
+  background-color: #f8f9fa;
+}
