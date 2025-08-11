@@ -1,0 +1,39 @@
+html, body {
+  height: 100%;
+  background-color: #010b16;
+}
+
+/* İçeriği ekran boyuna göre ayarlayan alan */
+.content-wrapper {
+  min-height: calc(100vh - 150px); /* footer yüksekliği kadar boşluk bırakır */
+  padding: 20px;
+}
+
+footer{
+ position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+footer a {
+  color: #343a40; /* Koyu gri, Bootstrap’in dark grisi */
+  text-decoration: none; /* Altı çizgiyi de kaldırır */
+  transition: color 0.3s ease; /* Hover geçişi */
+}
+
+footer a:hover {
+  color: #010b16; /* Hover rengi (Bootstrap’in mavisi) */
+}
+
+footer h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #0f0909ad;
+}
+
+p{
+    font-weight: 3;
+    color: rgba(2, 3, 3, 0.508);
+}
