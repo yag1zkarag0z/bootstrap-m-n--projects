@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+    
+<div class="container my-5">
+  <div class="row">
+    <!-- Sol Menü -->
+    <div class="col-md-3">
+      <ul class="nav flex-column nav-pills" id="productTabs" role="tablist">
+        <li class="nav-item" role="presentation">
+          <button class="nav-link active" id="desc-tab" data-bs-toggle="tab" data-bs-target="#desc" type="button" role="tab">
+            Description
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="reviews-tab" data-bs-toggle="tab" data-bs-target="#reviews" type="button" role="tab">
+            Reviews
+          </button>
+        </li>
+        <li class="nav-item" role="presentation">
+          <button class="nav-link" id="shipping-tab" data-bs-toggle="tab" data-bs-target="#shipping" type="button" role="tab">
+            Shipping
+          </button>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Sağ İçerik -->
+    <div class="col-md-9">
+      <div class="tab-content" id="productTabsContent">
+        <!-- 1. Sekme -->
+        <div class="tab-pane fade show active" id="desc" role="tabpanel">
+          <h4>Product Description</h4>
+          <p>This is the product description. Here you can put detailed information about your product.</p>
+        </div>
+
+        <!-- 2. Sekme -->
+        <div class="tab-pane fade" id="reviews" role="tabpanel">
+          <h4>Customer Reviews</h4>
+          <p>No reviews yet. Be the first to leave a review!</p>
+        </div>
+
+        <!-- 3. Sekme -->
+        <div class="tab-pane fade" id="shipping" role="tabpanel">
+          <h4>Shipping Information</h4>
+          <p>We offer worldwide shipping. Estimated delivery time: 5-10 business days.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
