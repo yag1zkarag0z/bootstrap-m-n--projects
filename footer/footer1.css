@@ -1,0 +1,38 @@
+.content-wrapper {
+  min-height: calc(100vh - 150px); /* yaklaşık footer yüksekliği kadar boşluk */
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 2rem 1rem;
+  border-top: 1px solid #ddd;
+}
+footer h5 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #343a40; /* Koyu gri */
+}
+
+footer p {
+  color: #6c757d; /* Açık gri yazı */
+  font-size: 0.95rem;
+}
+
+footer ul {
+  padding: 0;
+  margin: 0;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: #343a40;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #007bff; }
