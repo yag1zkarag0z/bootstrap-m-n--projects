@@ -1,3 +1,16 @@
 body{
     background-color: darkblue;
 }
+
+h3{
+    text-decoration: double;
+    color: black;
+}
+
+p{
+    color: black;
+}
+
+label{
+    color: black;
+}
